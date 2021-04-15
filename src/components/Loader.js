@@ -1,11 +1,11 @@
 import React from "react";
 
 const Loader = () => (
-  <div class="ui progress">
-    <div class="bar">
-      <div class="progress"></div>
+  <div className="ui progress">
+    <div className="bar">
+      <div className="progress"></div>
     </div>
-    <div class="label">Uploading Files</div>
+    <div className="label">Uploading Files</div>
   </div>
 );
 

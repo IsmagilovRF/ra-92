@@ -31,8 +31,8 @@ class PostsList extends React.Component {
 
     return (
       <div className="ui comments">
-        {posts.map((post) => (
-          <PostItem key={post.id} {...post}>
+        {posts.map((post,index) => (
+          <PostItem key={index} {...post}>
             <Link to={`/posts/${post.id}`} className="ui teal tag label">
               Побробнее
             </Link>
